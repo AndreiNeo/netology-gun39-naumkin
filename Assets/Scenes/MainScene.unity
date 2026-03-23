@@ -450,6 +450,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6188501323684804492, guid: 8d2507d7f69cd6a4db42ac35b5359223, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188501323684804492, guid: 8d2507d7f69cd6a4db42ac35b5359223, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188501323684804492, guid: 8d2507d7f69cd6a4db42ac35b5359223, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188501323684804492, guid: 8d2507d7f69cd6a4db42ac35b5359223, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.g
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8908793525505567068, guid: 8d2507d7f69cd6a4db42ac35b5359223, type: 3}
       propertyPath: m_Name
       value: GUI
