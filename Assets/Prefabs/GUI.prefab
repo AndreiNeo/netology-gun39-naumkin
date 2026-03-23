@@ -297,11 +297,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarnageIndicator
       objectReference: {fileID: 0}
+    - target: {fileID: 8284659705880286559, guid: 2ea933ecc1dcfd940abf818e098b10fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.6880004
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2952963308359254964, guid: 2ea933ecc1dcfd940abf818e098b10fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4393727024771382460}
   m_SourcePrefab: {fileID: 100100000, guid: 2ea933ecc1dcfd940abf818e098b10fb, type: 3}
+--- !u!1 &1702683262663300715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2952963308359254964, guid: 2ea933ecc1dcfd940abf818e098b10fb, type: 3}
+  m_PrefabInstance: {fileID: 4565010771541005791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &4393727024771382460
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702683262663300715}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 47078393a256ca948ba5ebcc2c920432, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 47078393a256ca948ba5ebcc2c920432, type: 2}
+  - {fileID: 7400000, guid: 91df198e92afe854484fd54c1ee5bae3, type: 2}
+  - {fileID: 7400000, guid: 11943528527584f48b553d1e6e6f2450, type: 2}
+  - {fileID: 7400000, guid: 50d647eff9086bc4cb8c5c3b1ed9b178, type: 2}
+  - {fileID: 7400000, guid: 3230e72b4451a424bbd343e7f1f597ad, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!224 &3564329228186524834 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1021516191473142141, guid: 2ea933ecc1dcfd940abf818e098b10fb, type: 3}
